@@ -1,0 +1,88 @@
+*,*::after,*::before{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+text-align: center;
+}
+:root{
+    
+--Green: hsl(75, 94%, 57%);
+
+--White: hsl(0, 0%, 100%);
+
+--Greyweek: hsl(0, 0%, 20%);
+--Greys3: hsl(0, 0%, 12%);
+--Greysolid: hsl(0, 0%, 8%);
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background: var(--Greysolid);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    margin-top: 30px;
+}
+.heading{
+    background: var(--Greys3);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+h1{
+    font-weight:700px ;
+    color: var(--White);
+
+}
+h2,p{
+    font-weight: 600px;
+    color: var(--White);
+    font-size: 14px;
+
+}
+.list{
+color: var(--White);
+text-align: center;
+}
+.list ul {
+    display: block;
+    box-sizing: border-box;
+    width: 300px;
+
+}
+.list ul li{
+    border: 1px solid var(--Greys3);
+    border-radius: 10px;
+    padding: 10px 0;
+}
+.list ul li:nth-child(1){
+    background: var(--Greyweek);
+    margin-bottom: 10px;
+    
+}
+.list ul li:nth-child(2){
+    background: var(--Greyweek);
+    margin-bottom: 10px;
+}
+.list ul li:nth-child(3){
+    background: var(--Greyweek);
+    margin-bottom: 10px;
+}
+.list ul li:nth-child(4){ 
+       background: var(--Greyweek);
+       margin-bottom: 10px;
+    }
+.list ul li:nth-child(5){
+    background: var(--Greyweek);
+    margin-bottom: 10px;
+}
+h2{
+    color: goldenrod;
+}
